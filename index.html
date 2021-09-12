@@ -10,35 +10,39 @@
         <script src="https://kit.fontawesome.com/c27877a5b9.js" crossorigin="anonymous"></script>
     </head>
 
-    <body >
+    <body>
         <div class="container">
             <div class="second-cont">
 
                 <h1>JavaScript Challenge</h1>
 
+                <!-- Container to hold the image and the image load button -->
                 <div class="imageContainer">
                     <img src="" alt="Random image">
                     <button id="loadImage">Load another Image</button>
                 </div>
                 
+                <!-- Form to enter an email and submit it, as well as two buttons, one for submitting the email
+                     and another to refresh the page -->
                 <form class="inputContainer">
                     <label for="emailInput">Enter E–mail:</label> <br>
                     <input type="email" id="emailInput" name="emailInput" placeholder="Email Address"> <br>
                     <input type="submit" id="submit" name="submitEmail" value="Assign Image to above Email">
                     <button onClick="window.location.reload();">Refresh Page</button>
                 </form>
-        
+                
+                <!-- A container to display the emails and images assigned to them -->
                 <div id="resultsContainer">
                     <h2>Results</h2>
                 </div>
             </div>
         
         <script
-			  src="https://code.jquery.com/jquery-3.6.0.min.js"
-			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-			  crossorigin="anonymous">
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous">
         </script>
         <script src="js/script.js"></script>
     </body>
-    
+
 </html>
