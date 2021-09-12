@@ -1,0 +1,91 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.4rem;
+    font-family: $font-default;
+}
+
+.second-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.imageContainer {
+    margin-bottom: 40px;
+    & img{
+        border-radius: 8px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    & button {
+        margin: 0 auto;
+        display: flex;
+        cursor: pointer;
+    }
+}
+    
+
+.smallImage {
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    flex-basis: 100%;
+}
+
+h1 {
+    padding: 30px 0;
+    font-weight: 700;
+    font-size: 3rem;
+    
+}
+
+#resultsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    & h2 {
+        margin-top: 40px;
+        font-size: 1.7rem;
+    }
+}
+
+.resultRow {
+    padding: 20px;
+}
+
+hr {
+    width: 70vw;
+    background-color: black;
+    height: 3px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+
+    & label {
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 1.6rem;
+    }
+
+    & #submit {
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+}
+
+#emailInput {
+    margin: 10px 0;
+}

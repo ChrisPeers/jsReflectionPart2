@@ -1,0 +1,20 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1rem;
+    letter-spacing: .4px;
+    font-family: $font-default;
+}
+
+* {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+a,
+a:visited {
+    color: inherit;
+}
